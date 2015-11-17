@@ -1,6 +1,14 @@
 #navBar {
-	width:500px;
+	background-color: blue;
+	height: 25%;
+	width: 80%;
 }
+
 body {
+	width: 80%;
 	background-color: red;
+}
+
+img {
+	
 }
