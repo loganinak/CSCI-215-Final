@@ -4,6 +4,12 @@
 	width: 80%;
 }
 
+li {
+	float: left;
+	list-style-type: none;
+	
+}
+
 body {
 	margin: 0 auto;
 	width: 80%;
