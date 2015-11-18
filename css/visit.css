@@ -1,22 +1,21 @@
-.twoCol {
-	width: calc(50% - 6px);
-	height: 200px;
-	background-color: #555;
-	float: left;
-	border: 3px;
-	border-style: solid;
-	border-color: white;
-	
-}
-
 .threeCol {
-	width: calc(33% - 4px);
+	width: calc(100%/3 - 8px/3);
 	height: 200px;
-	background-color: #555;
+	background-color: #DDD;
 	float: left;
-	border: 3px;
-	border-style: solid;
-	border-color: white;
 	
 }
 
+#midCol {
+	margin-left: 4px;
+	margin-right: 4px;
+}
+
+#buyTix {
+	margin: 0 auto;
+	background-color: #DDD;
+	width: 15%;
+	margin-top: 4px;
+	text-align: center;
+	
+}
