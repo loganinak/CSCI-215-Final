@@ -1,0 +1,21 @@
+.twoCol {
+	width: calc(50% - 6px);
+	height: 200px;
+	background-color: #555;
+	float: left;
+	border: 3px;
+	border-style: solid;
+	border-color: white;
+	
+}
+
+.threeCol {
+	width: calc(33% - 4px);
+	height: 200px;
+	background-color: #555;
+	float: left;
+	border: 3px;
+	border-style: solid;
+	border-color: white;
+	
+}
