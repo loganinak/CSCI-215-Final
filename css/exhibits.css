@@ -1,21 +1,23 @@
 .twoCol {
-	width: calc(50% - 6px);
+	width: calc(50% - 2px);
 	height: 200px;
 	background-color: #555;
 	float: left;
-	border: 3px;
-	border-style: solid;
-	border-color: white;
-	
+}
+
+#leftCol {
+	margin-right: 4px;
 }
 
 .threeCol {
-	width: calc(33% - 4px);
+	margin-top: 4px; 
+	width : calc(100%/3 - 8px/3);
 	height: 200px;
 	background-color: #555;
 	float: left;
-	border: 3px;
-	border-style: solid;
-	border-color: white;
-	
+}
+
+#midCol {
+	margin-right: 4px;
+	margin-left: 4px;
 }
