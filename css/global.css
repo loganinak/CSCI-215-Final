@@ -73,9 +73,9 @@ li:hover{
 }
 
 #content{
-    border-bottom: solid 4px;
+    padding: 4px;
     border-color: #FFFFFF;
-    width: 100%;
+    width: calc(100% - 8px);
     background-color: #FFFFFF;
 }
 
