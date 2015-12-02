@@ -70,6 +70,7 @@ a{
 
 li:hover{
     background-color: #555;
+    transistion: linear 1s;
 }
 
 #content{
