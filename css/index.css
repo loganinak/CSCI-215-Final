@@ -61,4 +61,7 @@ h2 {
 	.fill {
 		width: 1000px;
 	}
+	#headerImg {
+		width: 200px;
+	}
 }
