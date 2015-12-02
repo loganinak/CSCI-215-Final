@@ -1,23 +1,31 @@
 .fill {
-	width: calc(50% - 2px);
-	float: left;
-	height: 300px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	overflow: hidden;
+    width: calc(50% - 2px);
+    float: left;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
 }
 
-.mainPics {
-	width: 100%;
+@media (max-width:1365px) {
+    .mainPics {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1365px) {
+    .mainPics {
+        height: 100%;
+    }
 }
 
 #leftPic {
-	margin-right: 4px;
+    margin-right: 4px;
 }
 
 #paragraphs {
-	display: flex;
+    display: flex;
 }
 
 #content p{
@@ -36,32 +44,10 @@
 }
 
 h2 {
-	width: calc(100%/ 3);
-	float: left;
-	text-align: center;
-	margin-top: 8px;
+    width: calc(100%/ 3);
+    float: left;
+    text-align: center;
+    margin-top: 8px;
 }
 
-@media screen and (min-width: 1000px) {
-	.mainPics {
-		height: 100%;
-	}
-	.fill {
-		width: calc(50% - 2px);
-		float: left;
-		height: 300px;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		overflow: hidden;
-	}
-}
 
-@media sceen and (max-width:1000px) {
-	.fill {
-		width: 1000px;
-	}
-	#headerImg {
-		width: 200px;
-	}
-}

@@ -3,6 +3,7 @@
 	height: 200px;
 	background-color: #555;
 	float: left;
+        overflow: hidden;
 }
 
 #leftCol {
@@ -15,9 +16,45 @@
 	height: 200px;
 	background-color: #555;
 	float: left;
+        overflow: hidden;
 }
 
 #midCol {
 	margin-right: 4px;
 	margin-left: 4px;
+}
+
+img{
+    width:100%; 
+}
+
+p{
+    margin: 15px;
+    opacity: 0;
+    text-align: center;
+}
+h4{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.whiteness{
+    transition: .2s;
+    opacity: 0;
+    position: absolute;
+    width: calc(40% - 2px);
+    height: 200px;
+}
+
+.threeCol .whiteness{
+    width: 26.3%;
+}
+
+.whiteness:hover{
+    opacity: 1;
+    background-color: rgba(255, 255, 255, .8);
+}
+
+p{
+    opacity: 1;
 }
