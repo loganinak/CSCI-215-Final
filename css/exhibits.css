@@ -30,9 +30,9 @@
 
 p{
     margin: 15px;
-    opacity: 0;
     text-align: center;
 }
+
 h4{
     text-align: center;
     padding-top: 20px;
@@ -53,8 +53,4 @@ h4{
 .whiteness:hover{
     opacity: 1;
     background-color: rgba(255, 255, 255, .8);
-}
-
-p{
-    opacity: 1;
 }
