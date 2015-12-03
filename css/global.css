@@ -49,10 +49,9 @@ li {
 }
 
 #headerImg {
-    display: block;
-    margin: auto;
-    height: 70%;
-    padding: 16px 0;
+    vertical-align: middle;
+    height: 40%;
+    padding:46px 10px;
 }
 
 a{
