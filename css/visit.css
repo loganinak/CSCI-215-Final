@@ -17,5 +17,9 @@
 	width: 15%;
 	margin-top: 4px;
 	text-align: center;
-	
+}
+
+.buyButton {
+	height: 20px;
+	width: 12%;
 }
