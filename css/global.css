@@ -45,6 +45,10 @@ li {
 	transition: .15s;
 }
 
+h4 {
+	font-family: 'Open Sans', sans-serif;
+}
+
 #rightHeader {
 	border-right: none;
 	width: 20%;
