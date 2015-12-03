@@ -40,7 +40,7 @@ li {
     border-style: solid;
     border-bottom: none;
     border-left: none;
-    transition: .15s;
+    transition: 15s;
 }
 
 #rightHeader{
