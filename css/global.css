@@ -40,6 +40,7 @@ li {
     border-style: solid;
     border-bottom: none;
     border-left: none;
+    transition: .15s;
 }
 
 #rightHeader{
@@ -48,10 +49,10 @@ li {
 }
 
 #headerImg {
-    padding: 10px; 
-    padding-top: 20px;
-    height: 65%;
-    padding: auto;
+    display: block;
+    margin: auto;
+    height: 70%;
+    padding: 16px 0;
 }
 
 a{
@@ -70,7 +71,6 @@ a{
 
 li:hover{
     background-color: #555;
-    transistion: linear 1s;
 }
 
 #content{
