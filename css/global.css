@@ -76,7 +76,6 @@ li:hover {
 
 #content {
 	padding: 4px;
-	border-color: #FFFFFF;
 	width: calc(100% - 8px);
 	background-color: #FFFFFF;
 }
@@ -109,7 +108,8 @@ li:hover {
 #copyright {
 	padding-top: 10px;
 	padding-bottom: 10px;
-	width: 100% display: block;
+	width: 100%;
+	display: block;
 	margin: 0 auto;
 	text-align: center;
 }
